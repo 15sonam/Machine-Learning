@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from themesdesign.in/drixo/horizontal/form-uploads.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2019 07:47:54 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimal-ui">
+    <title>Machine Learning</title>
+    <meta content="" name="description">
+    <meta content="ThemeDesign" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/images/favicon.ico"><!-- Dropzone css -->
+    <link href="assets/plugins/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="assets/css/custom.css" rel="stylesheet" type="text/css"> -->
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner"></div>
+        </div>
+    </div><!-- Navigation Bar-->
+    <header id="topnav">
+        <div class="topbar-main">
+            <div class="container-fluid">
+                <!-- Logo container-->
+                <div class="logo">
+                    <!-- Image Logo --> <a href="index.html" class="logo"><img src="assets/images/logo-dark.png" alt=""
+                            height="32" class="logo-small"> <img src="assets/images/logo-dark.png" alt="" height="45"
+                            class="logo-large"></a></div><!-- End Logo container-->
+                <div class="menu-extras topbar-custom">
+                    <ul class="list-inline float-right mb-0">
+
+
+                        <li class="list-inline-item dropdown notification-list"><a
+                                class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown"
+                                href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/menu.png" alt="user" class="rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
+
+                                <a class="dropdown-item" href="pages-login.html">
+                                    <i class="mdi mdi-logout m-r-5 text-muted"></i>
+                                    Logout</a>
+                            </div>
+                        </li>
+                        <li class="menu-item list-inline-item">
+                            <!-- Mobile menu toggle--> <a class="navbar-toggle nav-link">
+                                <div class="lines"><span></span> <span></span> <span></span></div>
+                            </a><!-- End mobile menu toggle-->
+                        </li>
+                    </ul>
+                </div><!-- end menu-extras -->
+                <div class="clearfix"></div>
+            </div><!-- end container -->
+        </div><!-- end topbar-main -->
+        <!-- MENU Start -->
+        <div class="navbar-custom">
+            <div class="container-fluid">
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+                       
+                            <li class="has-submenu"><a href="usermanagement.html">
+                                  Candidate Management</a>
+                                 </li>
+  
+                                 <li class="has-submenu"><a href="pages-register.html">
+                                    Student Registration</a>
+                                   </li>
+                          <li class="has-submenu"><a href="form-uploads.html">
+                              Upload Resume</a>
+                             </li>
+                          <li class="has-submenu"><a href="exam_management.html">
+                           Exam Management</a>
+                          </li>
+                          <li class="has-submenu"><a href="recommended_candidate.html">
+                                Recommended Candidate</a>
+                               </li>
+                      </ul><!-- End navigation menu -->
+                </div><!-- end #navigation -->
+            </div><!-- end container -->
+        </div><!-- end navbar-custom -->
+    </header><!-- End Navigation Bar-->
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box">
+                        <div class="btn-group float-right">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- end page title end breadcrumb -->
+
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <h4 class="mt-0 header-title">Create an Exam</h4>
+
+                          <form class="form-horizontal">
+                                    <fieldset>
+                                   
+                                    <div id="items" class="form-group">
+                                    
+                                    <div class="col-md-12 margin-bottom">
+                                    <div class="container add-more-box" id="textinput">
+                                            <div class="row">
+                                                    <div class="col-sm-12">
+                                                           <input  name="textinput" type="text" placeholder="Enter Question " class="form-control input-md">
+                                               
+                                                    </div>
+                                                  
+                                            </div>
+                                            <div class="row">
+                                                    <div class="col-sm-6">
+                                                           <input  name="textinput" type="text" placeholder="Enter Option 1" class="form-control input-md">
+                                               
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                           <input name="textinput" type="text" placeholder="Enter Option 2" class="form-control input-md">
+                                               
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-sm-6">
+                                                               <input  name="textinput" type="text" placeholder="Enter Option 3" class="form-control input-md">
+                                                   
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                               <input name="textinput" type="text" placeholder="Enter Option 4" class="form-control input-md">
+                                                   
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <p><strong>Marks</strong> : </p>
+                                                       <div class="col-2">
+                                                            <input name="" type="number" placeholder="Enter Marks" class="form-control input-md">
+
+                                                       </div>
+                                                    </div>
+                                    </div>
+                                    <hr>
+                                    </div>
+                                    </div>
+                                    
+                                    </fieldset>
+
+                                      
+                                    <button id="add" class="btn add-more button-yellow uppercase" type="button">+ Add more question</button> <button class="delete btn button-white uppercase">- Remove question</button>
+                        <div class="d-flex">
+                            <button class="btn btn-primary ml-auto">Submit</button>
+                        </div>
+                                    </form>
+                                    
+                                  
+                        
+                        </div>
+                    </div>
+                </div><!-- end col -->
+              
+            </div>
+
+
+        </div><!-- end container -->
+    </div><!-- end wrapper -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">© 2020 <b>Machine Learning </b><span class="d-none d-sm-inline-block"> Designed and
+                        Developed by Cyperts Digital Solutions.</span></div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <!-- jQuery  -->
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/fastclick.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/jquery.blockUI.js"></script>
+    <script src="assets/js/waves.js"></script><!-- Responsive-table-->
+    <script src="assets/plugins/RWD-Table-Patterns/dist/js/rwd-table.min.js"></script><!-- App js -->
+    <script src="assets/js/app.js"></script>
+    <script>$(function () {
+            $('.table-responsive').responsiveTable({
+                addDisplayAllBtn: 'btn btn-secondary'
+            });
+        });</script>
+
+
+<script>
+
+$(document).ready(function() {
+  $(".delete").hide();
+  //when the Add Field button is clicked
+  $("#add").click(function(e) {
+    $(".delete").fadeIn("1500");
+    //Append a new row of code to the "#items" div
+    $("#items").append(
+      '<div class="next-referral col-12"><div class="container add-more-box" id="textinput"><div class="row"><div  class="col-12"> <input name="textinput" type="text" placeholder="Enter Question" class="form-control input-md"> </div>  </div><div class="row"><div class="col-sm-6"> <input name="textinput" type="text" placeholder="Enter Option 1" class="form-control input-md"></div><div class="col-sm-6"> <input name="textinput" type="text" placeholder="Enter Option 2" class="form-control input-md"></div> </div>  <div class="row"><div class="col-sm-6"> <input name="textinput" type="text" placeholder="Enter Option 3" class="form-control input-md"></div><div class="col-sm-6"> <input name="textinput" type="text" placeholder="Enter Option 4" class="form-control input-md"> </div> </div> <div class="row"><p><strong>Marks</strong> :</p> <div class="col-2"><input name="" type="number" placeholder="Enter Marks" class="form-control input-md"></div> </div> <hr> </div> </div>'
+    );
+  });
+  $("body").on("click", ".delete", function(e) {
+    $(".next-referral").last().remove();
+  });
+});
+
+</script>
+</body>
+<!-- Mirrored from themesdesign.in/drixo/horizontal/form-uploads.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Aug 2019 07:47:55 GMT -->
+
+</html>
